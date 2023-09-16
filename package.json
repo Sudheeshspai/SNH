@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
     "react-icons": "^4.11.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node app.js",
+    "client": "cd client/snh && npm start"
   }
 }

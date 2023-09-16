@@ -149,3 +149,31 @@ input[type="checkbox"]:checked::before {
 .editor a {
   color: #8a2be2;
 }
+
+.terminal {
+  transition: height 500ms ease, width 500ms ease; /* Add "width" to the transition */
+}
+
+.term-max {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes shrinkAndDisappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.term-close {
+  animation: shrinkAndDisappear 1s ease forwards;
+}
+.thanks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
