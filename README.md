@@ -4,6 +4,9 @@
 
 # Nothing To See Here 
 NSH is the abbreviation for "Nothing to See Here," a state-of-the-art [WYSIWYG](https://www.google.com/search?q=WYSIWYG) (What You See Is What You Get) application meticulously designed with a hacker's mentality. Crafted by Hackers, with Hackers for Hackers, NSH seamlessly fuses [Novel](https://github.com/steven-tey/novel) technology with the dynamic capabilities of React JS and Express JS. The entire system is turbocharged by the formidable prowess of OpenAI, delivering an unparalleled experience for users who demand precision, power, and a touch of the unconventional.
+![image](https://github.com/Sudheeshspai/SNH/assets/81918189/225d04a6-1743-4aa4-948d-e9552bc9ab07)
+![image](https://github.com/Sudheeshspai/SNH/assets/81918189/b3b0efe3-5aaf-4471-b567-f544be0eaecf)
+![image](https://github.com/Sudheeshspai/SNH/assets/81918189/13c8c817-07e2-47da-bca0-13fe30bc2e34)
 
 ## Team members
 1. [Athul Prakash NJ](https://github.com/psychoSherlock)
@@ -23,8 +26,16 @@ OpenAI
 ```bash
 git clone https://github.com/Sudheeshspai/SNH
 npm install
-npm start
+cd server
+npm install
+cd ../client/snh/
+npm install
+cd ../..
+
 ```
-Note: For OpenAI to work, you need to add `OPENAI_KEY=<KEY>` to a `.env` file
 ## How to Run
 Instructions for running
+For OpenAI to work, you need to add `OPENAI_KEY=<KEY>` to a `.env` file
+```bash
+npm start
+```
