@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+/* Define the style for the scrollbar track */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Background color for the track */
+}
+
+/* Define the style for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #00ff00; /* Color of the scrollbar thumb */
+  border: 2px solid #000; /* Border around the thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Define the style for the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff00; /* Color of the thumb on hover */
+}
+
+/* Define the style for the scrollbar thumb */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00ff00 #000;
+}
+
+/* Define the style for the scrollbar thumb on hover */
+* {
+  scrollbar-color: #00ff00 #000;
+}
+
+.editor {
+  caret-color: #00ff00;
+  color: #00ff00;
+  font-family: "Courier New", monospace;
+  max-height: 90%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.editor h1 {
+  /* font-family: "Inconsolata", monospace; */
+  font-family: "VT323", monospace;
+
+  text-align: center;
+}
+h1[data-placeholder] {
+  display: none;
+}
+
+.editor h2 {
+  font-family: "Orbitron", sans-serif;
+}
+.editor h3 {
+  font-family: "Quantico", sans-serif;
+  font-size: 1.6em;
+}
+
+.editor pre {
+  background-color: #000;
+  color: #ff0000;
+}
+
+.top-heading {
+  text-align: center;
+  font-family: "VT323", monospace;
+  color: #00ff00;
+  font-size: 4em;
+}
+
+.terminal {
+  background-color: #111;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  z-index: 1000;
+}
+
+.terminal-top {
+  color: grey;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.2em;
+}
+.terminal-btns {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.2em;
+}
+.terminal-btns * {
+  margin: 0 0.2em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+* {
+  line-height: normal;
+}
+
+/* Style the checkbox container */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #00ff00;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: 1px solid #00ff00;
+  position: relative;
+}
+
+input[type="checkbox"]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+
+input[type="checkbox"]:checked:before {
+  content: "✓";
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+/* Display the checkmark when the checkbox is checked */
+input[type="checkbox"]:checked::before {
+  display: block;
+}
+
+.editor a {
+  color: #8a2be2;
+}

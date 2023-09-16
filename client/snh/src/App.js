@@ -1,10 +1,13 @@
+import Terminal from "./components/Terminal";
 import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <div className="top-heading">
+        <h1>Nothing to See Here</h1>
+      </div>
+      <Terminal />
     </div>
   );
 }
