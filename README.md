@@ -13,7 +13,7 @@ NSH is the abbreviation for "Nothing to See Here," a state-of-the-art [WYSIWYG](
 2. [Sudheesh](https://github.com/Sudheeshspai)
 3. [Aditya R Menon](https://github.com/adityarmenon)
 ## Link to product walkthrough
-[link to video](Link Here)
+[link to video](https://drive.google.com/file/d/1Wg51emnF0kyRaModUckOzLipJdzm6qCo/view)
 ## How it Works ?
  The project works mainly powered by Novel and OpenAI. A react server is hosted on port 3000 and a express server on port 5000. 
  The OpenAI prompts will be sent to /api/generate. Which will sent the prompt to chatgpt's `gpt-3.5-turbo` model. Note that for the AI to work u need to add OPENAI_KEY to a .env file.
