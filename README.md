@@ -2,7 +2,7 @@
 ![Novel Frame](https://github.com/TH-Activities/saturday-hack-night-template/assets/90635335/4c26e8ac-2dd1-4d75-8e1a-9f7585e3b381)
 
 
-# Project Name
+# Nothing To See Here 
 Long Description about project. This project do that. This project is awesome...
 ## Team members
 1. [Athul Prakash NJ](https://github.com/psychoSherlock)
